@@ -75,6 +75,14 @@
             CLList.AddList("C");
             CLList.AddList("D");
 
+            CLList.rotateRight(1);
+            Console.WriteLine("After rotating right once: ");
+            CLList.PrintList();
+
+            CLList.rotateLeft(1);
+            Console.WriteLine("After rotating left once: ");
+            CLList.PrintList();
+
             CLList.rotateRight(2);
             Console.WriteLine("After rotating right by 2 positions:");
             CLList.PrintList();
@@ -84,7 +92,7 @@
             CLList.PrintList();
 
             CLList.rotateLeft(1);
-            Console.WriteLine("After rotating left by 1 positions:");
+            Console.WriteLine("After rotating left by once:");
             CLList.PrintList();
 
             Console.ReadLine();
